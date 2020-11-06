@@ -19,7 +19,7 @@ if (isset($_GET['id']))
   <div class="container">
   	<div class="row"> 
   		<div class="col-12">
-  			<h1> USUARIO A EDITAR</h1>
+  			<h1> ROL A EDITAR</h1>
 		  			<form action="modificar_rol.php" method="POST">
 		  			  <input type="hidden" name="id" value="<?=$id?>" >
 					  <div class="form-group">
